@@ -6,7 +6,7 @@ var morgan = require('morgan');
 var cors = require('cors');
 
 // Configs
-var db = require('src/app/config/db');
+var db = require('./src/app/config/db');
 
 // Connect to the DB
 mongoose.connect(db.url);
