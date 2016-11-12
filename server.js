@@ -1,9 +1,9 @@
 // Dependencies
+var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var morgan = require('morgan');
 var cors = require('cors');
-var app = express();
 
 // Configs
 var db = require('src/app/config/db');
