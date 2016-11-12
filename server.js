@@ -30,7 +30,7 @@ app.use(cors()); // CORS (Cross-Origin Resource Sharing) headers to support Cros
 app.use(express.static("www")); // Our Ionic app build is in the www folder (kept up-to-date by the Ionic CLI using 'ionic serve')
 
 // var MONGODB_URI = process.env.MONGODB_URI;
-
+// WORK
 // Initialize database connection and then start the server.
 // mongoClient.connect(MONGODB_URI, function (err, database) {
 // if (err) {
