@@ -37,7 +37,7 @@ app.use(express.static("www")); // Our Ionic app build is in the www folder (kep
 // process.exit(1);
 // }
 
-db = database; // Our database object from mLab
+//db = database; // Our database object from mLab
 
 console.log("Database connection ready");
 
