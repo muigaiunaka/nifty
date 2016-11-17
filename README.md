@@ -4,7 +4,12 @@ Nifty is a platform that provides users on-demand, hyper-localized access to clo
 
 ##How to run the code :
 
-install node, Angular, ionic , cordova
+clone the app
+
+check that you have node installed locally:
+```
+npm -v
+```
 
 run : 
 ```
