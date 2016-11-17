@@ -13,4 +13,4 @@ ionic serve
 
 open on local host.
 
-App deployed here: (Nifty Deploy)[https://niftytheapp.herokuapp.com/]
+App deployed here: [Nifty Deploy](https://niftytheapp.herokuapp.com/)
