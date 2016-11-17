@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {LoginPage} from '../login/login';
 
 import { NavController } from 'ionic-angular';
 
@@ -7,9 +8,9 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 export class HomePage {
-
+  loginPage = LoginPage;
   constructor(public navCtrl: NavController) {
-    
+
   }
 
 }

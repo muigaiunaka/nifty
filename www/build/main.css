@@ -19643,3 +19643,77 @@ sub {
     padding-top: calc(16px + 20px);
   }
 }
+
+a {
+  color: #fff;
+}
+
+button, .login-bg, .login {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+}
+
+button {
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  padding: 0 20px;
+  height: 60px;
+  background-color: #521C36;
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  min-width: 220px;
+  border-radius: 4px;
+}
+
+.login-bg {
+  width: 100vw;
+  height: 100vh;
+  max-width: 736px;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+  -webkit-align-items: center;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-flex-flow: column;
+}
+
+.login-logo {
+  width: 40%;
+}
+
+.login {
+  position: absolute;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+  -webkit-align-items: center;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-flex-flow: column;
+}
+
+.blur-off {
+  -webkit-filter: blur(0px) !important;
+  -moz-filter: blur(0px) !important;
+  -o-filter: blur(0px) !important;
+  -ms-filter: blur(0px) !important;
+  filter: blur(0px) !important;
+}
+
+.blur-on {
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+}
